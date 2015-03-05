@@ -730,3 +730,14 @@ $button-size: 1.5rem;
 #goog-wm-sb {
 	@extend .btn;
 }
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    display: block;
+    border: 2px solid;
+    border-radius: 25px;
+  }

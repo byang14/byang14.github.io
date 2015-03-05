@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title: Brian Yang's Blog
 locale:           en_US
 url:              
 
@@ -26,13 +26,13 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Brian Yang
   avatar: bio-photo.jpg
-  bio: "Describe your self."
+  bio: "Entrepreneur. Coder. Lemonade Addict."
   email: 
   disqus-shortname: 
-  twitter: #username
-  facebook: #username
+  twitter: bri_yang
+  facebook: brian.yang.9484
   google:
     plus: #username
     analytics: 
@@ -40,7 +40,7 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: byang14
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
