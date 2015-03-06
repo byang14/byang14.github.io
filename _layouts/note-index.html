@@ -7,7 +7,7 @@
 {% include _head.html %}
 </head>
 
-<body class="post-index">
+<body class="notes-index">
 
 {% include _browser-upgrade.html %}
 
@@ -34,7 +34,7 @@
   </div>
   <div id="index">
     <h1>{{ page.title }}</h1>
-    {% for post in site.tags.posts %}  
+    {% for post in site.tags.notes %}  
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
       {% else %}

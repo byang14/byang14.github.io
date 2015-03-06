@@ -1,10 +1,12 @@
 # Default extensions
 post_ext: md
 page_ext: md
+note_ext: md
 
 # Found in _templates/
 post_layout: post
 page_layout: page
+note_layout: notes
 
 # Format titles with titlecase?
 titlecase: true
