@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Git Setup"
+modified:
+categories: 
+excerpt: Setting up git on a new box
+tags: [notes]
+image:
+  feature:
+date: 2015-03-09T22:41:54-07:00
+---
+
+# Quick shell script to set up git on new boxes
+
+## Code
+
+{% highlight bash  %}
+
+#!/bin/bash
+
+# ================= Setup Git =========================
+
+cd ~/.ssh
+ssh-keygen -t rsa -C “byang14@csu.fullerton.edu”
+eval ssh-agent -s
+cat id_rsa.pub
+
+# Add that key to github
+
+git config --global user.email “byang14@csu.fullerton.edu”
+git config --global user.name “Brian”
+
+# If it asks for password, make sure your upstream starts with git@ and not https with 
+# git remote show origin
+
+{% endhighlight %}
